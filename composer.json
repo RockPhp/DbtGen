@@ -1,0 +1,27 @@
+{
+	"name": "rock/dbt-gen",
+	"description": "Rock orm generator",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andre Nils",
+			"email": "nilzao@gmail.com"
+		}
+	],
+	"require": {
+		"rock/core": "dev-master",
+		"rock/fst": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "9.5.28"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		],
+		"psr-0": {
+			"": "src/"
+		}
+	}
+}
